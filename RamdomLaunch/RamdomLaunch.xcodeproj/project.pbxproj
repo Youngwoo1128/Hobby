@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17AFAF05F1BA6773694CBF30 /* Pods_RamdomLaunchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF602ACED5A8D325BE599AB /* Pods_RamdomLaunchTests.framework */; };
+		54B218FF280A71B000E09DD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54B21901280A71B000E09DD8 /* InfoPlist.strings */; };
+		54EC6AEF280A531E00B4E4F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC6AEE280A531E00B4E4F4 /* AppDelegate.swift */; };
+		54EC6AF1280A531E00B4E4F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC6AF0280A531E00B4E4F4 /* SceneDelegate.swift */; };
+		54EC6AF3280A531E00B4E4F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC6AF2280A531E00B4E4F4 /* ViewController.swift */; };
+		54EC6AF6280A531E00B4E4F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EC6AF4280A531E00B4E4F4 /* Main.storyboard */; };
+		54EC6AF8280A532000B4E4F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54EC6AF7280A532000B4E4F4 /* Assets.xcassets */; };
+		54EC6AFB280A532000B4E4F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EC6AF9280A532000B4E4F4 /* LaunchScreen.storyboard */; };
+		54EC6B06280A532000B4E4F4 /* RamdomLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC6B05280A532000B4E4F4 /* RamdomLaunchTests.swift */; };
+		54EC6B10280A532000B4E4F4 /* RamdomLaunchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC6B0F280A532000B4E4F4 /* RamdomLaunchUITests.swift */; };
+		54EC6B12280A532000B4E4F4 /* RamdomLaunchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC6B11280A532000B4E4F4 /* RamdomLaunchUITestsLaunchTests.swift */; };
+		54EC6B1F280A60C300B4E4F4 /* 99833-edupia-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 54EC6B1E280A60C300B4E4F4 /* 99833-edupia-loading.json */; };
+		D493B3A1ADC6E3FCF6C7AC23 /* Pods_RamdomLaunch_RamdomLaunchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29750C40E69E81593C2D8D88 /* Pods_RamdomLaunch_RamdomLaunchUITests.framework */; };
+		E8CE8198D31C22B4BC73C812 /* Pods_RamdomLaunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942C03A926A00463D20C66C1 /* Pods_RamdomLaunch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54EC6B02280A532000B4E4F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54EC6AE3280A531E00B4E4F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54EC6AEA280A531E00B4E4F4;
+			remoteInfo = RamdomLaunch;
+		};
+		54EC6B0C280A532000B4E4F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54EC6AE3280A531E00B4E4F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54EC6AEA280A531E00B4E4F4;
+			remoteInfo = RamdomLaunch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29750C40E69E81593C2D8D88 /* Pods_RamdomLaunch_RamdomLaunchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RamdomLaunch_RamdomLaunchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DCC3A6137FBDD77E5FB8AE3 /* Pods-RamdomLaunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamdomLaunch.release.xcconfig"; path = "Target Support Files/Pods-RamdomLaunch/Pods-RamdomLaunch.release.xcconfig"; sourceTree = "<group>"; };
+		54B218F9280A6EDF00E09DD8 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		54B218FA280A6EDF00E09DD8 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		54B21900280A71B000E09DD8 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54EC6AEB280A531E00B4E4F4 /* RamdomLaunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamdomLaunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EC6AEE280A531E00B4E4F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54EC6AF0280A531E00B4E4F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		54EC6AF2280A531E00B4E4F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54EC6AF5280A531E00B4E4F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54EC6AF7280A532000B4E4F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54EC6AFA280A532000B4E4F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54EC6AFC280A532000B4E4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54EC6B01280A532000B4E4F4 /* RamdomLaunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamdomLaunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EC6B05280A532000B4E4F4 /* RamdomLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamdomLaunchTests.swift; sourceTree = "<group>"; };
+		54EC6B0B280A532000B4E4F4 /* RamdomLaunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamdomLaunchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EC6B0F280A532000B4E4F4 /* RamdomLaunchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamdomLaunchUITests.swift; sourceTree = "<group>"; };
+		54EC6B11280A532000B4E4F4 /* RamdomLaunchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamdomLaunchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54EC6B1E280A60C300B4E4F4 /* 99833-edupia-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "99833-edupia-loading.json"; path = "../../../../../../Downloads/99833-edupia-loading.json"; sourceTree = "<group>"; };
+		5DF602ACED5A8D325BE599AB /* Pods_RamdomLaunchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RamdomLaunchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		641E13B91ADF988BDFDB9094 /* Pods-RamdomLaunchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamdomLaunchTests.debug.xcconfig"; path = "Target Support Files/Pods-RamdomLaunchTests/Pods-RamdomLaunchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A2AB873FE46BE2C7BECE41E /* Pods-RamdomLaunchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamdomLaunchTests.release.xcconfig"; path = "Target Support Files/Pods-RamdomLaunchTests/Pods-RamdomLaunchTests.release.xcconfig"; sourceTree = "<group>"; };
+		942C03A926A00463D20C66C1 /* Pods_RamdomLaunch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RamdomLaunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C2648F97FD7ABEE14D8434 /* Pods-RamdomLaunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamdomLaunch.debug.xcconfig"; path = "Target Support Files/Pods-RamdomLaunch/Pods-RamdomLaunch.debug.xcconfig"; sourceTree = "<group>"; };
+		B929331A1D3C2D96DD64E858 /* Pods-RamdomLaunch-RamdomLaunchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamdomLaunch-RamdomLaunchUITests.debug.xcconfig"; path = "Target Support Files/Pods-RamdomLaunch-RamdomLaunchUITests/Pods-RamdomLaunch-RamdomLaunchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD91158E9B1D7E8921FDEFA1 /* Pods-RamdomLaunch-RamdomLaunchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RamdomLaunch-RamdomLaunchUITests.release.xcconfig"; path = "Target Support Files/Pods-RamdomLaunch-RamdomLaunchUITests/Pods-RamdomLaunch-RamdomLaunchUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54EC6AE8280A531E00B4E4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CE8198D31C22B4BC73C812 /* Pods_RamdomLaunch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EC6AFE280A532000B4E4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AFAF05F1BA6773694CBF30 /* Pods_RamdomLaunchTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EC6B08280A532000B4E4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D493B3A1ADC6E3FCF6C7AC23 /* Pods_RamdomLaunch_RamdomLaunchUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A9074E0E566006A4B0FB832 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				942C03A926A00463D20C66C1 /* Pods_RamdomLaunch.framework */,
+				29750C40E69E81593C2D8D88 /* Pods_RamdomLaunch_RamdomLaunchUITests.framework */,
+				5DF602ACED5A8D325BE599AB /* Pods_RamdomLaunchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54EC6AE2280A531E00B4E4F4 = {
+			isa = PBXGroup;
+			children = (
+				54EC6AED280A531E00B4E4F4 /* RamdomLaunch */,
+				54EC6B04280A532000B4E4F4 /* RamdomLaunchTests */,
+				54EC6B0E280A532000B4E4F4 /* RamdomLaunchUITests */,
+				54EC6AEC280A531E00B4E4F4 /* Products */,
+				7097959BAF14F2C61A6DA7F7 /* Pods */,
+				4A9074E0E566006A4B0FB832 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54EC6AEC280A531E00B4E4F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54EC6AEB280A531E00B4E4F4 /* RamdomLaunch.app */,
+				54EC6B01280A532000B4E4F4 /* RamdomLaunchTests.xctest */,
+				54EC6B0B280A532000B4E4F4 /* RamdomLaunchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54EC6AED280A531E00B4E4F4 /* RamdomLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				54B21901280A71B000E09DD8 /* InfoPlist.strings */,
+				54EC6B1E280A60C300B4E4F4 /* 99833-edupia-loading.json */,
+				54EC6AEE280A531E00B4E4F4 /* AppDelegate.swift */,
+				54EC6AF0280A531E00B4E4F4 /* SceneDelegate.swift */,
+				54EC6AF2280A531E00B4E4F4 /* ViewController.swift */,
+				54EC6AF4280A531E00B4E4F4 /* Main.storyboard */,
+				54EC6AF7280A532000B4E4F4 /* Assets.xcassets */,
+				54EC6AF9280A532000B4E4F4 /* LaunchScreen.storyboard */,
+				54EC6AFC280A532000B4E4F4 /* Info.plist */,
+			);
+			path = RamdomLaunch;
+			sourceTree = "<group>";
+		};
+		54EC6B04280A532000B4E4F4 /* RamdomLaunchTests */ = {
+			isa = PBXGroup;
+			children = (
+				54EC6B05280A532000B4E4F4 /* RamdomLaunchTests.swift */,
+			);
+			path = RamdomLaunchTests;
+			sourceTree = "<group>";
+		};
+		54EC6B0E280A532000B4E4F4 /* RamdomLaunchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54EC6B0F280A532000B4E4F4 /* RamdomLaunchUITests.swift */,
+				54EC6B11280A532000B4E4F4 /* RamdomLaunchUITestsLaunchTests.swift */,
+			);
+			path = RamdomLaunchUITests;
+			sourceTree = "<group>";
+		};
+		7097959BAF14F2C61A6DA7F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95C2648F97FD7ABEE14D8434 /* Pods-RamdomLaunch.debug.xcconfig */,
+				2DCC3A6137FBDD77E5FB8AE3 /* Pods-RamdomLaunch.release.xcconfig */,
+				B929331A1D3C2D96DD64E858 /* Pods-RamdomLaunch-RamdomLaunchUITests.debug.xcconfig */,
+				FD91158E9B1D7E8921FDEFA1 /* Pods-RamdomLaunch-RamdomLaunchUITests.release.xcconfig */,
+				641E13B91ADF988BDFDB9094 /* Pods-RamdomLaunchTests.debug.xcconfig */,
+				6A2AB873FE46BE2C7BECE41E /* Pods-RamdomLaunchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54EC6AEA280A531E00B4E4F4 /* RamdomLaunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54EC6B15280A532000B4E4F4 /* Build configuration list for PBXNativeTarget "RamdomLaunch" */;
+			buildPhases = (
+				4DC6B10AC8AB5FE343DDB830 /* [CP] Check Pods Manifest.lock */,
+				54EC6AE7280A531E00B4E4F4 /* Sources */,
+				54EC6AE8280A531E00B4E4F4 /* Frameworks */,
+				54EC6AE9280A531E00B4E4F4 /* Resources */,
+				F8F163250E67EA314CFE0448 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RamdomLaunch;
+			productName = RamdomLaunch;
+			productReference = 54EC6AEB280A531E00B4E4F4 /* RamdomLaunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54EC6B00280A532000B4E4F4 /* RamdomLaunchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54EC6B18280A532000B4E4F4 /* Build configuration list for PBXNativeTarget "RamdomLaunchTests" */;
+			buildPhases = (
+				32CF936D0A060A60E6FEB843 /* [CP] Check Pods Manifest.lock */,
+				54EC6AFD280A532000B4E4F4 /* Sources */,
+				54EC6AFE280A532000B4E4F4 /* Frameworks */,
+				54EC6AFF280A532000B4E4F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54EC6B03280A532000B4E4F4 /* PBXTargetDependency */,
+			);
+			name = RamdomLaunchTests;
+			productName = RamdomLaunchTests;
+			productReference = 54EC6B01280A532000B4E4F4 /* RamdomLaunchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54EC6B0A280A532000B4E4F4 /* RamdomLaunchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54EC6B1B280A532000B4E4F4 /* Build configuration list for PBXNativeTarget "RamdomLaunchUITests" */;
+			buildPhases = (
+				DC3733D2202569ACEBAD3F00 /* [CP] Check Pods Manifest.lock */,
+				54EC6B07280A532000B4E4F4 /* Sources */,
+				54EC6B08280A532000B4E4F4 /* Frameworks */,
+				54EC6B09280A532000B4E4F4 /* Resources */,
+				FA140B10923464B1C883D396 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54EC6B0D280A532000B4E4F4 /* PBXTargetDependency */,
+			);
+			name = RamdomLaunchUITests;
+			productName = RamdomLaunchUITests;
+			productReference = 54EC6B0B280A532000B4E4F4 /* RamdomLaunchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54EC6AE3280A531E00B4E4F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					54EC6AEA280A531E00B4E4F4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					54EC6B00280A532000B4E4F4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 54EC6AEA280A531E00B4E4F4;
+					};
+					54EC6B0A280A532000B4E4F4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 54EC6AEA280A531E00B4E4F4;
+					};
+				};
+			};
+			buildConfigurationList = 54EC6AE6280A531E00B4E4F4 /* Build configuration list for PBXProject "RamdomLaunch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = 54EC6AE2280A531E00B4E4F4;
+			productRefGroup = 54EC6AEC280A531E00B4E4F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54EC6AEA280A531E00B4E4F4 /* RamdomLaunch */,
+				54EC6B00280A532000B4E4F4 /* RamdomLaunchTests */,
+				54EC6B0A280A532000B4E4F4 /* RamdomLaunchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54EC6AE9280A531E00B4E4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EC6AFB280A532000B4E4F4 /* LaunchScreen.storyboard in Resources */,
+				54EC6B1F280A60C300B4E4F4 /* 99833-edupia-loading.json in Resources */,
+				54EC6AF8280A532000B4E4F4 /* Assets.xcassets in Resources */,
+				54EC6AF6280A531E00B4E4F4 /* Main.storyboard in Resources */,
+				54B218FF280A71B000E09DD8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EC6AFF280A532000B4E4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EC6B09280A532000B4E4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32CF936D0A060A60E6FEB843 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RamdomLaunchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DC6B10AC8AB5FE343DDB830 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RamdomLaunch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC3733D2202569ACEBAD3F00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RamdomLaunch-RamdomLaunchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F163250E67EA314CFE0448 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RamdomLaunch/Pods-RamdomLaunch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RamdomLaunch/Pods-RamdomLaunch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RamdomLaunch/Pods-RamdomLaunch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA140B10923464B1C883D396 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RamdomLaunch-RamdomLaunchUITests/Pods-RamdomLaunch-RamdomLaunchUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RamdomLaunch-RamdomLaunchUITests/Pods-RamdomLaunch-RamdomLaunchUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RamdomLaunch-RamdomLaunchUITests/Pods-RamdomLaunch-RamdomLaunchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54EC6AE7280A531E00B4E4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EC6AF3280A531E00B4E4F4 /* ViewController.swift in Sources */,
+				54EC6AEF280A531E00B4E4F4 /* AppDelegate.swift in Sources */,
+				54EC6AF1280A531E00B4E4F4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EC6AFD280A532000B4E4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EC6B06280A532000B4E4F4 /* RamdomLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EC6B07280A532000B4E4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EC6B10280A532000B4E4F4 /* RamdomLaunchUITests.swift in Sources */,
+				54EC6B12280A532000B4E4F4 /* RamdomLaunchUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54EC6B03280A532000B4E4F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54EC6AEA280A531E00B4E4F4 /* RamdomLaunch */;
+			targetProxy = 54EC6B02280A532000B4E4F4 /* PBXContainerItemProxy */;
+		};
+		54EC6B0D280A532000B4E4F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54EC6AEA280A531E00B4E4F4 /* RamdomLaunch */;
+			targetProxy = 54EC6B0C280A532000B4E4F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54B21901280A71B000E09DD8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54B21900280A71B000E09DD8 /* ko */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = SOURCE_ROOT;
+		};
+		54EC6AF4280A531E00B4E4F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54EC6AF5280A531E00B4E4F4 /* Base */,
+				54B218F9280A6EDF00E09DD8 /* ko */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54EC6AF9280A532000B4E4F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54EC6AFA280A532000B4E4F4 /* Base */,
+				54B218FA280A6EDF00E09DD8 /* ko */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54EC6B13280A532000B4E4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54EC6B14280A532000B4E4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54EC6B16280A532000B4E4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C2648F97FD7ABEE14D8434 /* Pods-RamdomLaunch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9WDV399BF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RamdomLaunch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.RamdomLaunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		54EC6B17280A532000B4E4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DCC3A6137FBDD77E5FB8AE3 /* Pods-RamdomLaunch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9WDV399BF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RamdomLaunch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.RamdomLaunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		54EC6B19280A532000B4E4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 641E13B91ADF988BDFDB9094 /* Pods-RamdomLaunchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9WDV399BF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.RamdomLaunchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamdomLaunch.app/RamdomLaunch";
+			};
+			name = Debug;
+		};
+		54EC6B1A280A532000B4E4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2AB873FE46BE2C7BECE41E /* Pods-RamdomLaunchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9WDV399BF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.RamdomLaunchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamdomLaunch.app/RamdomLaunch";
+			};
+			name = Release;
+		};
+		54EC6B1C280A532000B4E4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B929331A1D3C2D96DD64E858 /* Pods-RamdomLaunch-RamdomLaunchUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9WDV399BF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.RamdomLaunchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RamdomLaunch;
+			};
+			name = Debug;
+		};
+		54EC6B1D280A532000B4E4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD91158E9B1D7E8921FDEFA1 /* Pods-RamdomLaunch-RamdomLaunchUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B9WDV399BF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.RamdomLaunchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RamdomLaunch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54EC6AE6280A531E00B4E4F4 /* Build configuration list for PBXProject "RamdomLaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EC6B13280A532000B4E4F4 /* Debug */,
+				54EC6B14280A532000B4E4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54EC6B15280A532000B4E4F4 /* Build configuration list for PBXNativeTarget "RamdomLaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EC6B16280A532000B4E4F4 /* Debug */,
+				54EC6B17280A532000B4E4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54EC6B18280A532000B4E4F4 /* Build configuration list for PBXNativeTarget "RamdomLaunchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EC6B19280A532000B4E4F4 /* Debug */,
+				54EC6B1A280A532000B4E4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54EC6B1B280A532000B4E4F4 /* Build configuration list for PBXNativeTarget "RamdomLaunchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54EC6B1C280A532000B4E4F4 /* Debug */,
+				54EC6B1D280A532000B4E4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54EC6AE3280A531E00B4E4F4 /* Project object */;
+}
